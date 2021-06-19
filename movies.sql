@@ -179,3 +179,4 @@ INSERT INTO STARSIN
 
 INSERT INTO STARSIN
   VALUES ('The Usual Suspects', 1995, 'Sandra Bullock')
+
