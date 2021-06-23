@@ -7,7 +7,7 @@ select distinct movietitle, movieyear, starname
 from starsin
 where starname in (select distinct name from starsin
 					 join moviestar on starname = name
-					 where name not like '%k%' and name not like '%b%' and gender = 'm')
+			    	 where name not like '%k%' and name not like '%b%' and gender = 'm')
 	  and movieyear < 1982
 order by movieyear asc
 
